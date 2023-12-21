@@ -53,7 +53,7 @@ class CameraScreenState extends State<CameraScreen> {
       imagePath = file.path;
     } on CameraException catch (e) {
       debugPrint(e.toString());
-            return null;
+      return null;
     }
 
     return imagePath;
